@@ -97,5 +97,10 @@ img {
   }
 
   .pequeno{
-    font-size: 5px !important;
+    font-size: small;
+    text-align: right;
+  }
+
+  h3{
+    text-align: right;
   }
