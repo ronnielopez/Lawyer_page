@@ -100,3 +100,7 @@ img {
     border-left-style: solid;
     padding-left: 4px;
   }
+
+  .pequeno{
+    font-size: 5px !important;
+  }
