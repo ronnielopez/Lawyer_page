@@ -66,14 +66,8 @@ img {
     transition: height 300ms ease;
     display: block;
   }
-  .carousel-wrapper .carousel .carousel-cell .price {
-    position: absolute;
-    font-weight: 700;
-    margin: 45px auto 0 auto;
-    left: 50%;
-    transform: translate(-50%);
-    opacity: 0;
-    transition: opacity 300ms ease 300ms;
+  .carousel-wrapper .carousel .carousel-cell .tiny {
+    font-size:10px;
   }
   .carousel-wrapper .carousel .carousel-cell .price sup {
     top: 2px;
@@ -84,8 +78,9 @@ img {
   }
   .carousel-wrapper .carousel .carousel-cell.is-selected .line {
     height: 35px;
+    
   }
-  .carousel-wrapper .carousel .carousel-cell.is-selected .price, .carousel-wrapper .carousel .carousel-cell.is-selected .more {
+  .carousel-wrapper .carousel .carousel-cell.is-selected .tiny, .carousel-wrapper .carousel .carousel-cell.is-selected .more {
     opacity: 1;
   }
   .carousel-wrapper .flickity-page-dots {
