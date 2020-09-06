@@ -95,6 +95,11 @@ img {
     border-left-style: solid;
     padding-left: 4px;
   }
+  .line_black_reverse{
+    border-color: #000;
+    border-right-style: solid;
+    
+  }
 
   .pequeno{
     font-size: small;
@@ -104,3 +109,5 @@ img {
   h3{
     text-align: right;
   }
+
+  
