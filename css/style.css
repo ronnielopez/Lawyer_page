@@ -215,5 +215,13 @@ section {
   top: 32px;
 }
 
+a{
+  color: #252d6e;
+}
 
-
+.bg-primary{
+  background-color: #252d6e !important;
+} 
+h2{
+  color: #252d6e;
+}
