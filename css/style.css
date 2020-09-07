@@ -175,3 +175,15 @@ section {
 .shadow {
   background-color:#F2F8F8;
 }
+
+.line_buttom{
+  border-bottom-color: #fff;
+    border-bottom-style: solid;
+    
+}
+
+.line_bottom_black{
+  border-bottom-color: #000;
+    border-bottom-style: solid;
+    width: 191px;
+}
