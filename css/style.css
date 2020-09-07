@@ -1,5 +1,7 @@
 .carousel-indicators{
     justify-content: left;
+    margin-bottom: -7px;
+    margin-left: 3px;
 }
 
 img {
@@ -119,6 +121,12 @@ img {
     border-right-style: solid;
     
   }
+  .line_white_reverse{
+    border-color: #fff;
+    border-right-style: solid;
+    margin-top: 120px;
+    text-align: right;
+  }
 
   .pequeno{
     font-size: small;
@@ -174,6 +182,10 @@ img {
     .letter_responsive_quienes {
       font-size: 1rem;
       
+    }
+    .reduce{
+      width: 100% !important;
+    
     }
   }
 
