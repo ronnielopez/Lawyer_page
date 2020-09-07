@@ -187,3 +187,7 @@ section {
     border-bottom-style: solid;
     width: 191px;
 }
+
+.right{
+  text-align: end;
+}
