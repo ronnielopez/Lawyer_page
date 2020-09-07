@@ -93,7 +93,7 @@ img {
   .line_black{
     border-color: #000;
     border-left-style: solid;
-    padding-left: 4px;
+    
   }
   .line_black_reverse{
     border-color: #000;
@@ -110,4 +110,9 @@ img {
     text-align: right;
   }
 
+  .card{
+    margin-top: 20px;
+  }
+
+ 
   
