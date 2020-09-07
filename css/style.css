@@ -131,3 +131,27 @@ img {
       font-size: 1rem;
     }
   }
+
+  .bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+}
+
+
+
+.reduce{
+  width: 40%;
+}
+
+section {
+  padding:2rem;
+}
+
+.shadow {
+  background-color:#F2F8F8;
+}
