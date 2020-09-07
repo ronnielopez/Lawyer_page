@@ -191,6 +191,10 @@ img {
       width: 100% !important;
     
     }
+
+    .img_responsive{
+      width: 200px !important;
+    }
   }
 
   .bg-overlay {
@@ -371,4 +375,8 @@ h2{
 .single-service p {
 	font-size: 15px;
 	line-height: 1.8;
+}
+
+.img_responsive{
+  width: 100%;
 }
