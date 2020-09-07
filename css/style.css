@@ -138,10 +138,26 @@ img {
   .letter_responsive {
     font-size: 2rem;
   }
+
+  .letter_responsive_contact {
+    font-size: 2rem;
+  }
+
+  .letter_responsive_quienes {
+    font-size: 2rem;
+    
+  }
   
   @media screen and (min-width: 601px) {
     .letter_responsive {
       font-size: 2rem;
+    }
+    .letter_responsive_contact {
+      font-size: 2rem;
+    }
+    .letter_responsive_quienes {
+      font-size: 2rem;
+      
     }
   }
   
@@ -149,6 +165,16 @@ img {
   @media screen and (max-width: 600px) {
     .letter_responsive {
       font-size: 1rem;
+      white-space: nowrap;
+      margin-left: -72px;
+    }
+    .letter_responsive_contact {
+      font-size: 1rem;
+      margin-left: -12px;
+    }
+    .letter_responsive_quienes {
+      font-size: 1rem;
+      
     }
   }
 
