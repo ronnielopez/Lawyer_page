@@ -1,3 +1,7 @@
+body{
+  background-color: #fff;
+}
+
 .carousel-indicators{
     justify-content: left;
     margin-bottom: -7px;
