@@ -2,6 +2,16 @@ body{
   background-color: #fff;
 }
 
+@font-face{
+  font-family: 'Louis George Cafe Bold';
+  src: url('../font/Louis George Cafe Bold.ttf');
+}
+
+@font-face{
+  font-family: 'Louis George Cafe';
+  src: url('../font/Louis George Cafe.ttf');
+}
+
 .carousel-indicators{
     justify-content: left;
     margin-bottom: -7px;
@@ -14,12 +24,7 @@ img {
     height: auto;
     display: block;
   }
-  
-  h3 {
-    text-align: center;
-    font-weight: 400;
-    margin-bottom: 0;
-  }
+
   
   .gtco-testimonials {
     position: relative;
@@ -52,14 +57,14 @@ img {
     border-radius: 50%;
     display: block;
     background: #fff;
-    border: 2px solid #01b0f8;
+    border: 2px solid #081156;
     margin: 0 5px;
   }
   .gtco-testimonials .owl-dots .active {
     box-shadow: none;
   }
   .gtco-testimonials .owl-dots .active span {
-    background: #01b0f8;
+    background: #081156;
     box-shadow: none;
     height: 12px;
     width: 12px;
@@ -81,7 +86,7 @@ img {
     height: 100px;
   }
   .gtco-testimonials .card h5 {
-    color: #01b0f8;
+    color: #081156;
     font-size: 21px;
     line-height: 1.3;
   }
@@ -140,6 +145,7 @@ img {
 
   h3{
     text-align: right;
+    font-family: 'Louis George Cafe Bold';
   }
 
   .card{
@@ -224,7 +230,7 @@ img {
   }
 
   .bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/slide-2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -244,7 +250,7 @@ section {
 }
 
 .shadow {
-  background-color:#F2F8F8;
+  background-color:#F5F5F5;
 }
 
 .line_buttom{
@@ -287,14 +293,15 @@ section {
 }
 
 a{
-  color: #252d6e;
+  color: #081156;
 }
 
 .bg-primary{
-  background-color: #252d6e !important;
+  background-color: #081156 !important;
 } 
 h2{
-  color: #252d6e;
+  color: #081156;
+  font-family: 'Louis George Cafe Bold' !important;
 }
 
 /* pruebas */
@@ -313,7 +320,7 @@ h2{
 	text-transform: capitalize;
 	position: relative;
 	padding-bottom: 20px;
-	display: inline-block
+  display: inline-block
 }
 .section-title h4:before {
 	position: absolute;
@@ -405,4 +412,26 @@ h2{
 
 .img_responsive{
   width: 100%;
+}
+
+.carousel-item {
+  height: 80vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.lead{
+  text-align: right;
+}
+
+p, a{
+  font-family: 'Louis George Cafe';
+}
+
+h4{
+  font-family: 'Louis George Cafe Bold';
 }
