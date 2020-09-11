@@ -201,9 +201,6 @@ img {
       font-size: 2rem;
       padding-right: 10px;
     }
-    .img_resposive{
-      width: 250px !important;
-    }
     
   }
   
@@ -229,7 +226,9 @@ img {
     .img_responsive{
       width: 200px !important;
     }
-    
+    .img_resposive{
+      width: 250px !important;
+    }
   }
 
   .bg-overlay {
