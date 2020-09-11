@@ -25,10 +25,6 @@
 
 <body>
 
- 
-
-
-
 <!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -52,8 +48,44 @@
     </div>
   </div>
 </div>
+<!--fin modal-->
 
+<!--modal contacto-->
 
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="contactmodal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <form method="post">
+          <h3>Drop Us a Message</h3>
+          <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                </div>
+                <div class="form-group">
+                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                </div>
+                <div class="form-group">
+                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                  <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--fin modal contacto-->
 
   <!--Navbar-->
   <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -97,7 +129,7 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="#">
-            <h2 class="text-right">¡Sera un gusto asesorarte!</h2>
+            <h2 class="text-right" data-toggle="modal" data-target="#contactmodal">¡Sera un gusto asesorarte!</h2>
           </a>
         </li>
       </ul>
@@ -108,7 +140,7 @@
 
   <!--Navbar-->
   <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-    <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" width="295"></a>
+    <a class="navbar-brand" href="#"><img class='img_resposive' src="img/logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-index"
       aria-controls="navbar-index" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
