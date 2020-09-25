@@ -57,25 +57,27 @@
     <div class="modal-content">
       <div class="modal-body">
         <form method="post">
-          <h3>Drop Us a Message</h3>
+          <h3>Ponte en contacto con nosotros</h3>
           <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                    <input type="text" name="txtName" class="form-control" placeholder="Nombre" value="" />
                 </div>
                 <div class="form-group">
-                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                    <input type="text" name="txtEmail" class="form-control" placeholder="Correo electronico" value="" />
                 </div>
                 <div class="form-group">
-                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                    <input type="text" name="txtPhone" class="form-control" placeholder="Numero de contacto" value="" />
                 </div>
                 <div class="form-group">
-                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                  <button class="button type4">
+                    Enviar
+                  </button>
                 </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                  <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                  <textarea name="txtMsg" class="form-control" placeholder="Mensaje" style="width: 100%; height: 150px;"></textarea>
               </div>
             </div>
           </div>
@@ -149,7 +151,7 @@
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbar-index">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#QuienesSomos">Quienes somos? <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#QuienesSomos">¿Quienes somos? <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item ">
           <a class="nav-link" href="#servicio">Nuestros servicios</a>
@@ -171,12 +173,15 @@
   <!--SLIDER-->
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
       <ol class="carousel-indicators indicators_inicio">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
+
       <div class="carousel-inner" role="listbox">
+
         <!-- Slide One - Set the background image for this slide in the line below -->
         <div class="carousel-item active" style="background-image: url('img/Imagen1.png')">
           <div class="carousel-caption d-none d-md-block">
@@ -186,25 +191,34 @@
               y financiero, proponiendo soluciones oportunas y acordes a las necesidades de nuestros clientes.</p>
           </div>
         </div>
+
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('img/Imagen1.png')">
           <div class="carousel-caption d-none d-md-block">
-            <h3 class="display-4">Titulo 2</h3>
-            <p class="lead">descripcion</p>
+            <h3 class="display-4">¿Quiénes somos?</h3>
+            <p class="lead">En Benscorp somos reconocidos por tener una amplia experiencia en el área legal y tributaria. 
+              Enfocando nuestros servicios en el análisis y resolución de problemas legales dentro de un contexto comercial 
+              y financiero, proponiendo soluciones oportunas y acordes a las necesidades de nuestros clientes.</p>
           </div>
         </div>
+
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('img/Imagen1.png">
+        <div class="carousel-item" style="background-image: url('img/Imagen1.png')")>
           <div class="carousel-caption d-none d-md-block">
-            <h3 class="display-4">Titulo 3</h3>
-            <p class="lead">descripcion</p>
+            <h3 class="display-4">¿Quiénes somos?</h3>
+            <p class="lead">En Benscorp somos reconocidos por tener una amplia experiencia en el área legal y tributaria. 
+              Enfocando nuestros servicios en el análisis y resolución de problemas legales dentro de un contexto comercial 
+              y financiero, proponiendo soluciones oportunas y acordes a las necesidades de nuestros clientes.</p>
           </div>
         </div>
+
       </div>
+
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
+          
       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
@@ -417,21 +431,42 @@
     </div>
     <br>
     <div class="row">
-      <div class="container bg-overlay">
-        <div class="col-sm-3">
-          <h1 class="line_buttom">Historia</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div class="tab" role="tabpanel">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Historia</a></li>
+                      <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Mision</a></li>
+                      <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Vision</a></li>
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content tabs">
+                      <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                          <h3>Historia</h3>
+                          <p>Benscorp nace en 2003 como una empresa consultora, enfocada en solucionar y asesorar 
+                            al mercado salvadoreño ante los distintos problemas asociados con la correcta ejecución
+                             y mantenimiento, a mediano y a largo plazo, de un modelo de negocios. Sean estas dificultades: 
+                             legales, tributarias o relacionadas a estrategias ineficientes de negocios o innovación; poseemos 
+                             al personal necesario, altamente capacitado, para ofrecer una visión integral, y a su vez,
+                              una correcta resolución de las mismas.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section2">
+                          <h3>Mision</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section3">
+                          <h3>Section 3</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
         </div>
-        <div class="col-sm">
-          <div>
-            <p class="reduce">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, aliquam a.
-              Harum voluptatibus
-              saepe rem eum explicabo voluptate dolorum,
-              perspiciatis esse optio? Delectus dolorem, nam sequi corrupti reprehenderit cumque
-              perspiciatis?</p>
-          </div>
-        </div>
-      </div>
-
+    </div>
     </div>
 
   </section>
@@ -447,63 +482,81 @@
         <!-- Single Service -->
         <div class="single-service">
           <h4>Asesoria fiscal especializada</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+          <button class="button type1"  data-toggle="modal" data-target="#primero">
+            mas informacion
+          </button>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <!-- Single Service -->
         <div class="single-service">
           <h4>Constitucion e inscripcion de empresas</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+          <button class="button type1"  data-toggle="modal" data-target="2">
+            mas informacion
+          </button>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <!-- Single Service -->
         <div class="single-service">
           <h4>Reestructuracion empresarial</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+          <button class="button type1" data-toggle="modal" data-target="3">
+            mas informacion
+          </button>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <!-- Single Service -->
         <div class="single-service">
           <h4>Asesoriamento legal e integral</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+          <button class="button type1" data-toggle="modal" data-target="4">
+            mas informacion
+          </button>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <!-- Single Service -->
         <div class="single-service">
           <h4>Estudios de precios de transeferencia</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+          <button class="button type1" data-toggle="modal" data-target="5">
+            mas informacion
+          </button>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <!-- Single Service -->
         <div class="single-service">
           <h4>Servicio de traduccion de textos legales</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+          <button class="button type1" data-toggle="modal" data-target="6">
+            mas informacion
+          </button>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <!-- Single Service -->
         <div class="single-service">
           <h4>Servicios de outsourcing contable</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+          <button class="button type1" data-toggle="modal" data-target="7">
+            mas informacion
+          </button>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <!-- Single Service -->
         <div class="single-service">
           <h4>Analisis estrategicos de negocio</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+          <button class="button type1" data-toggle="modal" data-target="8">
+            mas informacion
+          </button>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <!-- Single Service -->
         <div class="single-service">
           <h4>Gestion de proyectos de inovacion</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+          <button class="button type1" data-toggle="modal" data-target="9">
+            mas informacion
+          </button>
         </div>
       </div>
     </div>
@@ -528,64 +581,97 @@
               <div class="carousel-item active">
                 <div class="single-service">
                   <h4>Asesoria fiscal especializada</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  <button class="button type1" data-toggle="modal" data-target="1">
+                    mas informacion
+                  </button>
                 </div>
 
               </div>
               <div class="carousel-item">
                 <div class="single-service">
                   <h4>Constitucion e inscripcion de empresas</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  <button class="button type1" data-toggle="modal" data-target="2">
+                    mas informacion
+                  </button>
                 </div>
 
               </div>
               <div class="carousel-item">
                 <div class="single-service">
                   <h4>Reestructuracion empresarial</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  <button class="button type1" data-toggle="modal" data-target="3">
+                    mas informacion
+                  </button>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="single-service">
                   <h4>Asesoriamento legal e integral</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  <button class="button type1" data-toggle="modal" data-target="4">
+                    mas informacion
+                  </button>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="single-service">
                   <h4>Estudios de precios de transeferencia</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  <button class="button type1" data-toggle="modal" data-target="5">
+                    mas informacion
+                  </button>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="single-service">
                   <h4>Servicio de traduccion de textos legales</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  <button class="button type1" data-toggle="modal" data-target="6">
+                    mas informacion
+                  </button>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="single-service">
                   <h4>Servicios de outsourcing contable</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  <button class="button type1" data-toggle="modal" data-target="7">
+                    mas informacion
+                  </button>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="single-service">
                   <h4>Analisis estrategicos de negocio</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  <button class="button type1" data-toggle="modal" data-target="8">
+                    mas informacion
+                  </button>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="single-service">
                   <h4>Gestion de proyectos de inovacion</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  <button class="button type1" data-toggle="modal" data-target="9">
+                    mas informacion
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+    </div>
 
-      
+    <!--Modales-->
+    <div class="modal fade" id="primero" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Asesoría fiscal especializada</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            La asesoría Fiscal tiene por objeto la optimización de sus impuestos y la detección de nuevas ventajas fiscales aplicables a su negocio. Nuestros asesores buscan obtener el menor impacto fiscal, es por ello por lo que ofrecemos una la siguiente gama de servicios: planeación fiscal estratégica, obtención de incentivos fiscales, asesoría preventiva y correctiva, optimización del pago a contribuciones, revisión del correcto cumplimiento de obligaciones fiscales, consolidación fiscal, entre otros. 
+          </div>
+        </div>
+      </div>
     </div>
 
   </section>
@@ -711,10 +797,10 @@
     </div>
 
     <div class="row">
-      <div class="col-xl-6 col-md-12">
+      <div class="col-xl-8 col-md-12">
         <img src="img/avante.png" class="rounded float-left" alt="...">
       </div>
-      <div class="col-xl-6 col-md-12">
+      <div class="col-xl-4 col-md-6">
 
         <div class="row justify-content-end">
           <div class="col">
@@ -785,12 +871,16 @@
 
 
   <!--Import all JS-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
      <script src="js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="js/index.js"></script>
+  
+
 
 </body>
 
