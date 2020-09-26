@@ -657,3 +657,7 @@ justify-content: center;
   width: 50px;
 }
 
+.carousel-caption{
+  right: 4px !important;
+  bottom: 0px !important;
+}
