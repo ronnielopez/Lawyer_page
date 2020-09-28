@@ -449,15 +449,7 @@ h2 {
   width: 100%;
 }
 
-.carousel-item {
-  height: 50vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 
 .lead {
   text-align: right;
@@ -510,7 +502,7 @@ h4 {
 
 .links {
   font-size: 40px;
-  color: #252d6e;
+  color: grey;
 }
 /* tabs */
 
@@ -660,4 +652,9 @@ justify-content: center;
 }
 .button.type4:hover::after {
   width: 50px;
+}
+
+.carousel-caption{
+  right: 4px !important;
+  bottom: 0px !important;
 }
