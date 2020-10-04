@@ -527,7 +527,7 @@ justify-content: center;
 .tab .nav-tabs{ border-bottom: 2px solid #e8e8e8; }
 .tab .nav-tabs li a{
   display: block;
-  padding: 10px 20px;
+  padding: 10px 60px;
   margin: 0 5px 1px 0;
   background: #fff;
   font-size: 20px;
