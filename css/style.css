@@ -235,6 +235,7 @@ h3 {
   .letter_responsive_contact {
     font-size: 2rem;
     padding-right: 10px;
+    white-space: nowrap;
   }
   .letter_responsive_quienes {
     font-size: 2rem;
