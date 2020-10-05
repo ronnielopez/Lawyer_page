@@ -207,6 +207,10 @@ h3 {
   }
 }
 
+.padding_left_historia{
+  padding-left: 10px;
+}
+
 @media screen and (min-width: 601px) {
   .letter_responsive {
     font-size: 2rem;
@@ -528,8 +532,6 @@ justify-content: center;
 .tab .nav-tabs li a{
   display: block;
   padding: 10px 60px;
-  margin: 0 5px 1px 0;
-  background: #fff;
   font-size: 20px;
   font-weight: 700;
   color: #112529;
@@ -542,7 +544,7 @@ justify-content: center;
 }
 .tab .nav-tabs li a:hover,
 .tab .nav-tabs li.active a{
-  color: #252d6e;
+  color: #000;
   border: none;
 }
 .tab .nav-tabs li.active a:before{
