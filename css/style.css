@@ -457,7 +457,6 @@ h2 {
 .carousel-item {
   height: 55vh;
   min-height: 350px;
-  width: 100%;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -664,19 +663,4 @@ justify-content: center;
 }
 .button.type4:hover::after {
   width: 50px;
-}
-
-.carousel-caption{
-  bottom: 17%;
-}
-
-.card-titulo{
-  position: relative;
-  text-align: center;
-  margin-top: 5%;
-}
-
-.collapse-content{
-  position: relative;
-  text-align: center;
 }
